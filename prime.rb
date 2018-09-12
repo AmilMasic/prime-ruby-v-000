@@ -9,7 +9,7 @@ def prime?(numbers)
     #   false
     if prime == 2 || prime == 3 || prime == 5 || prime == 7
         true
-      elsif prime <= -1
+      elsif prime <== -1
         # binding.pry
         false
       else prime % 2 != 0 || prime % 3 != 0 || prime % 5 != 0 || prime % 7 != 0 ||
