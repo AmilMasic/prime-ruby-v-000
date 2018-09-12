@@ -4,11 +4,11 @@ def prime?(numbers)
   if numbers < 2
     return false
   end
-  !2..numbers.any? do |n|
+  !(2..numbers).any? do |n|
     numbers % n == 0
   end
 end
-  
+
   # numbers = (-120..120).to_a
   # numbers = (2..numbers).to_a
   # numbers.any? do |prime|
