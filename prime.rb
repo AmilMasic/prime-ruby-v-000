@@ -4,7 +4,7 @@ def prime?(numbers)
   if numbers < 2
     return false
   end
-  2..numbers.any? do |n|
+  !2..numbers.any? do |n|
     numbers % n == 0
   end
 end
