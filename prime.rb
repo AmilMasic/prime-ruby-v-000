@@ -5,15 +5,15 @@ def prime?(numbers)
   # binding.pry
   numbers.each do |prime|
     if prime % 2 == 0
-      false
+      return false
     elsif prime % 3 == 0
-      false
+      return false
     elsif prime % 5 == 0
-      false
+      return false
     elsif prime % 7 == 0
-      false
+      return false
     else
-      true
+      return true
     end
   end
 end
