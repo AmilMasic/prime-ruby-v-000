@@ -2,7 +2,7 @@
 require "pry"
 def prime?(numbers)
   i = 0
-  while i < numbers.length
+  while i < numbers.size
     if numbers[i] % 2 == 0
       puts "be sure to account for negative numbers"
     else
