@@ -9,7 +9,7 @@ def prime?(numbers)
       elsif prime % 2 != 0 || prime % 3 != 0 || prime % 5 != 0 || prime % 7 != 0
         false
       else
-        puts "be sure to account for negative numbers!"
+        false
       end
   end
 end
