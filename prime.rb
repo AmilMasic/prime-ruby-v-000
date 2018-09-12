@@ -3,7 +3,7 @@ require "pry"
 def prime?(numbers)
   # numbers = (1..120).to_a
   # binding.pry
-  numbers.each? do |prime|
+  numbers.each do |prime|
     if prime % 2 == 0
       false
     elsif prime % 3 == 0
