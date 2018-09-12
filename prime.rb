@@ -22,7 +22,7 @@ def prime?(numbers)
 
     else
       # puts "Be sure to account for negative numbers!"
-      return true
+      true
     end
   end
 end
