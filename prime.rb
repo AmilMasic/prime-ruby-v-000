@@ -1,17 +1,17 @@
 # Add  code here!
 require "pry"
 def prime?(numbers)
-  # numbers = (-120..120).to_a
-  numbers = (2..numbers).to_a
-  # array = array.between?(2..numbers)
-  numbers.any? do |prime|
-
-    if prime == 2 || prime == 3 || prime == 5 || prime == 7
-        true
-      elsif prime < 2
-        false
-      else prime % 2 != 0 || prime % 3 != 0 || prime % 5 != 0 || prime % 7 != 0
-        false
-      end
+  if numbers < 2
+    return false
   end
-end
+  # numbers = (-120..120).to_a
+  # numbers = (2..numbers).to_a
+  # numbers.any? do |prime|
+  #
+  #   if prime == 2 || prime == 3 || prime == 5 || prime == 7
+  #       true
+  #     else prime % 2 != 0 || prime % 3 != 0 || prime % 5 != 0 || prime % 7 != 0
+  #       false
+  #     end
+  # end
+# end
