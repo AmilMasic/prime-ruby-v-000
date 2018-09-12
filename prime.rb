@@ -4,7 +4,7 @@ def prime?(numbers)
   # numbers = (-120..120).to_a
   # numbers = numbers.to_a
   array = array.between?(2..numbers)
-  numbers.any? do |prime|
+  array.any? do |prime|
 
     if prime == 2 || prime == 3 || prime == 5 || prime == 7
         true
