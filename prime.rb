@@ -14,4 +14,6 @@ def prime?(numbers)
       false
     else
       true
+    end
+  end
 end
