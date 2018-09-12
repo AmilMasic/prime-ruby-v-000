@@ -9,19 +9,20 @@ def prime?(numbers)
       puts "Be sure to account for negative numbers!"
 
     elsif prime % 3 == 0
-      # return false     
+      # return false
        puts "Be sure to account for negative numbers!"
 
     elsif prime % 5 == 0
-      # return false      
+      # return false
       puts "Be sure to account for negative numbers!"
 
     elsif prime % 7 == 0
-      # return false      
+      # return false
       puts "Be sure to account for negative numbers!"
 
     else
       # puts "Be sure to account for negative numbers!"
+      return true
     end
   end
 end
