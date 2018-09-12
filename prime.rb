@@ -4,12 +4,12 @@ def prime?(numbers)
   if numbers < 2
     return false
   end
-  
+
   result = (2...numbers).any? do |n|
     numbers % n == 0
   end
-  
-  return result
+
+  return !result
 end
 
   # numbers = (-120..120).to_a
