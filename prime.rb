@@ -7,6 +7,7 @@ def prime?(numbers)
 result = (2..numbers).any? do |n|
     numbers % n == 0
   end
+  return result
 end
 
   # numbers = (-120..120).to_a
