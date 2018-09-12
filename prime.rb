@@ -8,8 +8,8 @@ def prime?(numbers)
         true
       elsif prime <= 0
         false
-      else prime % 2 != 0 || prime % 3 != 0 || prime % 5 != 0 || prime % 7 != 0 ||
-        false
+      # else prime % 2 != 0 || prime % 3 != 0 || prime % 5 != 0 || prime % 7 != 0 ||
+      #   false
 
 
       end
