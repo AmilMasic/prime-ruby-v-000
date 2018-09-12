@@ -5,15 +5,23 @@ def prime?(numbers)
   # binding.pry
   numbers.each do |prime|
     if prime % 2 == 0
-      return false
-    elsif prime % 3 == 0
-      return false
-    elsif prime % 5 == 0
-      return false
-    elsif prime % 7 == 0
-      return false
-    else
+      # return false
       puts "Be sure to account for negative numbers!"
+
+    elsif prime % 3 == 0
+      # return false     
+       puts "Be sure to account for negative numbers!"
+
+    elsif prime % 5 == 0
+      # return false      
+      puts "Be sure to account for negative numbers!"
+
+    elsif prime % 7 == 0
+      # return false      
+      puts "Be sure to account for negative numbers!"
+
+    else
+      # puts "Be sure to account for negative numbers!"
     end
   end
 end
