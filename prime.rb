@@ -2,7 +2,6 @@
 require "pry"
 def prime?(numbers)
   # numbers = (-120..120).to_a
-  # numbers
   numbers = numbers.to_a
   numbers.any? do |prime|
 
