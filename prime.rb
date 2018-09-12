@@ -1,7 +1,7 @@
 # Add  code here!
 require "pry"
 def prime?(numbers)
-  # numbers = (1..120).to_a
+  numbers = (1..120).to_a
   # binding.pry
   numbers.each do |prime|
     if prime % 2 == 0
