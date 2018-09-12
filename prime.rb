@@ -13,7 +13,7 @@ def prime?(numbers)
     elsif prime % 7 == 0
       return false
     else
-      return true
+      puts "Be sure to account for negative numbers!"
     end
   end
 end
